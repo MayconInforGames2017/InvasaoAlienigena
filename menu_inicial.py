@@ -41,73 +41,55 @@ def selecao():
         screen_menu.fill((255, 255, 255))
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         iniciar = fonte.render("INICIAR", True, (80, 80, 80))
-        screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + 5))
+        screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + 5))
 
         fonte = pygame.font.SysFont("Agency FB", 30, False, False)
         configuracao = fonte.render("CONFIGURAÇÔES", True, (80, 80, 80))
-        screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 35))
+        screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) + 35))
 
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         creditos = fonte.render("CRÉDITOS", True, (80, 80, 80))
-        screen_menu.blit(creditos, ((a / 2) + 215, (l / 2) + 75))
+        screen_menu.blit(creditos, ((a / 2) + 115, (l / 2) + 75))
 
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         sair = fonte.render("SAIR", True, (80, 80, 80))
-        screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 105))
-
-    if (menu_selecao == 2):
-        screen_menu.fill((255, 255, 255))
-        fonte = pygame.font.SysFont("Agency FB", 20, False, False)
-        iniciar = fonte.render("INICIAR", True, (80, 80, 80))
-        screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + 5))
-
-        fonte = pygame.font.SysFont("Agency FB", 30, False, False)
-        configuracao = fonte.render("CONFIGURAÇÔES", True, (80, 80, 80))
-        screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 35))
-
-        fonte = pygame.font.SysFont("Agency FB", 20, False, False)
-        creditos = fonte.render("CRÉDITOS", True, (80, 80, 80))
-        screen_menu.blit(creditos, ((a / 2) + 215, (l / 2) + 75))
-
-        fonte = pygame.font.SysFont("Agency FB", 20, False, False)
-        sair = fonte.render("SAIR", True, (80, 80, 80))
-        screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 105))
+        screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 105))
 
     if (menu_selecao == 3):
         screen_menu.fill((255, 255, 255))
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         iniciar = fonte.render("INICIAR", True, (80, 80, 80))
-        screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + -25))
+        screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + -25))
 
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         configuracao = fonte.render("CONFIGURAÇÔES", True, (80, 80, 80))
-        screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 5))
+        screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) + 5))
 
         fonte = pygame.font.SysFont("Agency FB", 30, False, False)
         creditos = fonte.render("CRÉDITOS", True, (80, 80, 80))
-        screen_menu.blit(creditos, ((a / 2) + 215, (l / 2) + 35))
+        screen_menu.blit(creditos, ((a / 2) + 115, (l / 2) + 35))
 
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         sair = fonte.render("SAIR", True, (80, 80, 80))
-        screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 75))
+        screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 75))
 
     if (menu_selecao == 4):
         screen_menu.fill((255, 255, 255))
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         iniciar = fonte.render("INICIAR", True, (80, 80, 80))
-        screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) - 55))
+        screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) - 55))
 
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         configuracao = fonte.render("CONFIGURAÇÔES", True, (80, 80, 80))
-        screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) - 25))
+        screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) - 25))
 
         fonte = pygame.font.SysFont("Agency FB", 20, False, False)
         creditos = fonte.render("CRÉDITOS", True, (80, 80, 80))
-        screen_menu.blit(creditos, ((a / 2) + 215, (l / 2) + 5))
+        screen_menu.blit(creditos, ((a / 2) + 115, (l / 2) + 5))
 
         fonte = pygame.font.SysFont("Agency FB", 30, False, False)
         sair = fonte.render("SAIR", True, (80, 80, 80))
-        screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 35))
+        screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 35))
 
     if menu_selecao == 5:
         menu_selecao = 4
@@ -140,38 +122,38 @@ def selecao():
             screen_menu.fill((255, 255, 255))
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("SOM", True, (0, 0, 0))
-            screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("ON/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 265, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 165, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             iniciar = fonte.render("OFF/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 305, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 205, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             configuracao = fonte.render("ALIASING", True, (80, 80, 80))
-            screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 75))
+            screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) + 75))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             sair = fonte.render("VOLTAR", True, (80, 80, 80))
-            screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 105))
+            screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 105))
 
         if menu_selecao == 210:
             pygame.mixer.music.unpause()
             screen_menu.fill((255, 255, 255))
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("SOM", True, (0, 0, 0))
-            screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("ON/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 265, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 165, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             iniciar = fonte.render("OFF/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 292, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 192, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             configuracao = fonte.render("ALIASING", True, (80, 80, 80))
@@ -179,7 +161,7 @@ def selecao():
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             sair = fonte.render("VOLTAR", True, (80, 80, 80))
-            screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 105))
+            screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 105))
 
         if menu_selecao == 220:
             menu_selecao = 200
@@ -196,45 +178,45 @@ def selecao():
             screen_menu.fill((255, 255, 255))
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             iniciar = fonte.render("SOM", True, (0, 0, 0))
-            screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + 5))
+            screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + 5))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("ON/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 310, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 210, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("OFF/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 350, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 150, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             configuracao = fonte.render("ALIASING", True, (80, 80, 80))
-            screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 35))
+            screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             sair = fonte.render("VOLTAR", True, (80, 80, 80))
-            screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 75))
+            screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 75))
 
         if menu_selecao == 260:
             screen_menu.fill((255, 255, 255))
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             iniciar = fonte.render("SOM", True, (0, 0, 0))
-            screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + 5))
+            screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + 5))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("ON/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 310, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 210, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             iniciar = fonte.render("OFF/", True, (80, 80, 80))
-            screen_menu.blit(iniciar, ((a / 2) + 337, (l / 2) + 35))
+            screen_menu.blit(iniciar, ((a / 2) + 237, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             configuracao = fonte.render("ALIASING", True, (80, 80, 80))
-            screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 35))
+            screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) + 35))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             sair = fonte.render("VOLTAR", True, (80, 80, 80))
-            screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 75))
+            screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 75))
         #voltar
         if menu_selecao == 251:
             menu_selecao = 280
@@ -252,15 +234,15 @@ def selecao():
             screen_menu.fill((255, 255, 255))
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             iniciar = fonte.render("SOM", True, (0, 0, 0))
-            screen_menu.blit(iniciar, ((a / 2) + 215, (l / 2) + -25))
+            screen_menu.blit(iniciar, ((a / 2) + 115, (l / 2) + -25))
 
             fonte = pygame.font.SysFont("Agency FB", 20, False, False)
             configuracao = fonte.render("ALIASING", True, (80, 80, 80))
-            screen_menu.blit(configuracao, ((a / 2) + 215, (l / 2) + 5))
+            screen_menu.blit(configuracao, ((a / 2) + 115, (l / 2) + 5))
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             sair = fonte.render("VOLTAR", True, (80, 80, 80))
-            screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 35))
+            screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 35))
 
         if menu_selecao == 13:
             menu_selecao = 300
@@ -284,7 +266,7 @@ def selecao():
 
             fonte = pygame.font.SysFont("Agency FB", 30, False, False)
             sair = fonte.render("VOLTAR", True, (80, 80, 80))
-            screen_menu.blit(sair, ((a / 2) + 215, (l / 2) + 35))
+            screen_menu.blit(sair, ((a / 2) + 115, (l / 2) + 35))
 
         if menu_selecao == 310:
             menu_selecao = 3

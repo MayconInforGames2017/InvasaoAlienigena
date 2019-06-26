@@ -1,7 +1,5 @@
 import pygame, sys
 from pygame.locals import *
-from pygame import KEYDOWN, KEYUP
-from pygame import QUIT, K_DOWN, K_UP, K_RIGHT, K_LEFT, K_RETURN, K_ESCAPE, K_a, K_s, K_d, K_w
 #importação dos modelos
 
 from model import jogador
@@ -128,5 +126,4 @@ def Jogo(screen):
             pygame.mixer.music.fadeout(3000)
 
         pygame.display.update()
-#chamando a função
-Jogo()
+
