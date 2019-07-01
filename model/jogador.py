@@ -1,5 +1,6 @@
 ﻿import pygame
 from model import disparo
+#from menu_inicial import menu_selecao
 #herdar do sprite
 class Nave(pygame.sprite.Sprite):
     def __init__(self):
@@ -32,4 +33,5 @@ class Nave(pygame.sprite.Sprite):
             superficie.blit(self.imagemNave, self.rect)
         else:
             superficie.blit(self.imagemExplosao, self.rect)
-
+    #def carregar(self, menu):
+        #self.menu = menu_selecao = 1

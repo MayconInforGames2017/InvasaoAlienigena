@@ -124,6 +124,7 @@ def Jogo(screen):
             TextoGameOver = FonteGameOver.render("Game Over!", 0, colorFonte)
             janela.blit(TextoGameOver, (140, 350))
             pygame.mixer.music.fadeout(3000)
+            #jogador.menu_selecao = 1
 
         pygame.display.update()
 
