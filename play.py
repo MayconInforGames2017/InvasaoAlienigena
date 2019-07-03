@@ -81,6 +81,7 @@ def Jogo(screen):
                         lista_Asteroide.remove(x)
                         somColisao.play()
                         nave.vida = False
+                        #fundoFim = pygame.image.load('imagens/Fim.JPG')
                         #somColisao.stop()
                         gameOver()
 

@@ -33,5 +33,6 @@ class Nave(pygame.sprite.Sprite):
             superficie.blit(self.imagemNave, self.rect)
         else:
             superficie.blit(self.imagemExplosao, self.rect)
+            #self.imagemExplosao = pygame.image.load('imagens/Fim.JPG')
     #def carregar(self, menu):
         #self.menu = menu_selecao = 1
